@@ -3,11 +3,24 @@ import logo from './logo.svg';
 import './App.css';
 import './components/menu';
 import Menu from './components/menu';
+import Project from './components/project';
 
 function App() {
   return (
     <div className="App">
       <Menu />
+      <div className="columns">
+        <div class="column">
+        <Project />
+        </div>
+        <div class="column">
+        <Project />
+        </div>
+        <div class="column">
+        <Project />
+        </div>
+      </div>
+      
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
